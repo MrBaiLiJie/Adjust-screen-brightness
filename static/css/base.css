@@ -1,0 +1,190 @@
+﻿/********************************  base ************************/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0; padding: 0; }
+img { border: 0 none; }
+ul, li { list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px;}
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+
+/************************* 通用 *******************/
+
+
+/*********** 自动截断，省略为...，需要设定宽度 ********/
+.jieduan{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+/*********** 强制换行 ********/
+.break{ word-wrap: break-all; word-break: normal; }
+
+/*********** 清除浮动 ********/
+.clear { diplay: block!important; float: none!important; clear: both; overflow: hidden; width: auto!important; height: 0!important; margin: 0 auto!important; padding: 0!important; font-size: 0; line-height: 0; }
+
+/*********** 元素闭合********/
+.fixed:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.fixed { display: block; min-height: 1%; }
+*html .fixed { height: 1%; }
+
+/***********   浮动   ********/
+.fl, .fr { display: inline; float: left; }
+.fr { float: right; }
+.floatleft{float:left;}					  
+.floatright{float:right;}
+.block{display:block;}
+.none{display:none;}
+
+/******** 常见边距 start ********************/
+.margin0{margin:0px;}
+.margin5{margin:5px;}
+.margin10{margin:10px;}
+.margin15{margin:15px;}
+.margin20{margin:20px;}
+.top0{margin-top:0px;}
+.top5{margin-top:5px;}
+.top10{margin-top:10px;}
+.top15{margin-top:15px;}
+.top20{margin-top:20px;}
+.top30{margin-top:30px;}
+.top50{margin-top:50px;}
+.top80{margin-top:80px;}
+.top60{margin-top:60px;}
+
+.top220{margin-top:220px;}
+
+.left0{margin-left:0px;}
+.left5{margin-left:5px;}
+.left10{margin-left:10px;}
+.left15{margin-left:15px;}
+.left20{margin-left:20px;}
+.right0{margin-right:0px;}
+.right5{margin-right:5px;}
+.right10{margin-right:10px;}
+.right15{margin-right:15px;}
+.right20{margin-right:20px;}.right40{margin-right:40px;}
+.right50{margin-right:50px;}
+.bottom0{margin-bottom:0px;}
+.bottom5{margin-bottom:5px;}
+.bottom10{margin-bottom:10px;}
+.bottom15{margin-bottom:15px;}
+.bottom20{margin-bottom:20px;}
+/******** 边距 end *************************/
+
+/******** 常见宽度 start ***********************/
+.w100{width:100%;}
+.w47{width:47%;}
+.width10{width:10px;}
+.width20{width:20px;}
+.width30{width:30px;}
+.width40{width:40px;}
+.width50{width:50px;}
+.width60{width:60px;}
+.width70{width:70px;}
+.width80{width:80px;}
+.width90{width:90px;}
+.width100{width:100px;}
+.width110{width:110px;}
+.width120{width:120px;}
+.width130{width:130px;}
+.width140{width:140px;}
+.width150{width:150px;}
+.width160{width:160px;}
+.width170{width:170px;}
+.width180{width:180px;}
+.width190{width:190px;}
+.width200{width:200px;}
+.width220{width:200px;}
+.width250{width:250px;}
+.width265{width:265px;}
+.width280{width:280px;}
+.width300{width:300px;}
+.width350{width:350px;}
+.width400{width:400px;}
+.width420{width:420px;}
+.width450{width:450px;}
+.width500{width:500px;}
+.width600{width:600px;}
+.width700{width:700px;}
+.width800{width:800px;}
+.width900{width:900px;}
+.width940{width:940px;}
+.width960{width:960px;}
+.width980{width:980px;}
+.width1000{width:1000px;}
+.height5{ height:5px}
+.height10{ height:10px}
+.height27{ height:27px}
+.height40{ height:40px}
+.height80{ height:80px}
+.height160{ height:160px;}
+/******** 宽度 end *********************/
+
+/******** 字体与内容 start *****************/
+
+/******** 字体加粗 *****************/
+.normal{font-weight:normal}
+.bold{font-weight:bold}	 
+
+/******** 对齐 *****************/
+.textright{text-align:right;}
+.textcenter{text-align:center;}
+.textleft{text-align:left;}
+.vtop,.vtop td{ vertical-align:top}	
+.vmiddle,.vmiddle td{ vertical-align:middle}
+.vbottom,.vbottom td{ vertical-align:bottom}	
+.center{ margin:0 auto;}
+
+/******** 行高 *****************/
+.lineh16{line-height:16px;}
+.lineh20{line-height:20px;}
+.lineh25{line-height:25px;}
+.lineh30{line-height:30px;}
+
+/******** 字号 *****************/
+.font12{font-size:12px;}
+.font13{font-size:13px;}
+.font14{font-size:14px;}
+.font16{font-size:16px;}
+.font18{font-size:18px;}
+.font20{font-size:20px;}
+.font30{font-size:30px;}
+.font40{font-size:40px;}
+.font50{font-size:50px;}
+.it{ font-style:italic;}
+/******** 字体内容 end *********************/
+
+/******** 图片 start *****************/
+.imgmiddle{vertical-align:middle;margin-top:-4px;}
+/******** 图片 end*****************/
+
+/******** 颜色 start*****************/
+.black{ color:Black;}
+.white{ color:white;}
+.yellow{ color:#fffc0d;}
+.pink{color:#ff34ab}
+.gray{color:#818181}
+.bgblack{ background-color:#000000;}
+.bggray{ background-color:#fbfbfb;}
+.bgyellow
+{background-color:#fffc0d;}
+.font24
+{
+    font-size:24px;
+    }
+  
+/******** 颜色 end*****************/
+
+
+
+/******** 链接  start**************/
+.style a:link,.style a:visited,a.style:link,a.style:visited
+{
+	color:red;
+	text-decoration: underline;
+	text-decoration: none;
+	}
+.style a:hover,.style a:active,a.style:hover,a.style:active
+{
+	color:Blue;
+	text-decoration: underline;
+	text-decoration: none;
+	}
+/******** 链接 end****************************/
